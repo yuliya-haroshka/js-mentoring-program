@@ -32,3 +32,12 @@ switch (num) {
     console.log('Default behaviour'); 
     break;
 }
+
+//Task - rewrite IF to ?
+let result;
+
+if (a + b < 4) {
+  result = 'wrong';
+} else {
+  result = 'too much';
+}
