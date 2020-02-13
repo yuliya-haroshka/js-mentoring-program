@@ -20,7 +20,7 @@ $> npm install
 To run tests for each module, you can use the 
 
 ```
-$> npm run test:task_1
+$> npm run test:task_N
 ```
 
 `N` is the number of a task, i.e. 1-5.

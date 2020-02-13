@@ -4,7 +4,7 @@
   "description": "Repository for learning tasks",
   "main": "index.js",
   "scripts": {
-    "test:task_1": "mocha task_1/test/*.spec.js"
+    "test:task_1": "mocha tasks/task_1/test/*.spec.js"
   },
   "repository": {
     "type": "git",
