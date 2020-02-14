@@ -4,13 +4,17 @@
   "description": "Repository for learning tasks",
   "main": "index.js",
   "scripts": {
-    "test:task_1": "mocha tasks/task_1/test/*.spec.js"
+    "test:task_1": "mocha tasks/task_1/test/*.spec.js",
+    "test:functions": "mocha tasks/functions/test/*.spec.js"
   },
   "repository": {
     "type": "git",
     "url": "https://git.epam.com/Dzmitry_Shaplyka/js-mentoring-program.git"
   },
-  "author": "Dzmitry_Shaplyka@epam.com & Oleksand_Halichenko@epam.com",
+  "authors": [
+    "Dzmitry_Shaplyka@epam.com",
+    "Oleksandr_Halichenko@epam.com"
+  ],
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0",
