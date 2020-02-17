@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test:task_1": "mocha tasks/task_1/test/*.spec.js",
-    "test:functions": "mocha tasks/functions/test/*.spec.js"
+    "test:functions": "mocha tasks/functions/test/*.spec.js",
+    "test:arrays": "mocha tasks/arrays/test/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^7.0.1"
+    "mocha": "^7.0.1",
+    "sinon": "latest"
   }
 }
