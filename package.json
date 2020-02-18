@@ -4,7 +4,7 @@
   "description": "Repository for learning tasks",
   "main": "index.js",
   "scripts": {
-    "test:task_1": "mocha tasks/task_1/test/*.spec.js",
+    "test:cycles": "mocha tasks/cycles/test/*.spec.js",
     "test:functions": "mocha tasks/functions/test/*.spec.js",
     "test:arrays": "mocha tasks/arrays/test/*.spec.js"
   },

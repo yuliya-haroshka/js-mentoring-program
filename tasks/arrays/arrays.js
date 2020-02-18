@@ -1,4 +1,12 @@
 /**
+ * 1. Write a method to reverse a string; Function should return the string 'This is not a string'
+ * if a number is passed
+* @param {string}
+*/
+function reverseString(str) {
+}
+
+/**
  * return an array of characters names
  */
 function getCharactersNames(chars) {
@@ -34,11 +42,21 @@ function isAllHuman(chars) {
 function isAnyFishPerson(chars) {
 }
 
+/**
+ * 1. Write a method to find an index of minimal item from an array;
+* @param {array}
+*/
+function minItem(arr) {
+    //PLACE YOUR CODE HERE
+  }
+
 module.exports = {
+    reverseString,
     getCharactersNames,
     printCharacterNames,
     getNonHumanCharacters,
     getJerryInfo,
     isAllHuman,
-    isAnyFishPerson
+    isAnyFishPerson,
+    minItem
 };
