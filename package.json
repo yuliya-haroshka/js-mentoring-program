@@ -7,6 +7,7 @@
     "test:cycles": "mocha tasks/cycles/test/*.spec.js",
     "test:functions": "mocha tasks/functions/test/*.spec.js",
     "test:arrays": "mocha tasks/arrays/test/*.spec.js",
+    "test:strings": "mocha tasks/strings/test/*.spec.js",
     "test:objects": "mocha tasks/classes/test/objects.spec.js",
     "test:classes": "mocha tasks/classes/test/classes.spec.js"
   },
