@@ -1,3 +1,4 @@
+const { describe, it } = require('mocha');
 const { expect } = require('chai');
 const sinon = require('sinon');
 const chars = require('../characters.json');
