@@ -1,4 +1,10 @@
 const arr = [1,2,3,4,5];
+
+/**
+ * Get a length of an array
+ */
+console.log('The length is ' + arr.length);
+
 /**
  * pop() method
  */
