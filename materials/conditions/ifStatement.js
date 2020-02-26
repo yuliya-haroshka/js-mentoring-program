@@ -14,10 +14,14 @@ if (num < 49) {
     console.log('That is right!');
 }
 
-//Ternary operator
+/**
+ * Ternary operator
+ */
 (num == 50) ? console.log('That is right!') : console.log('Wrong!');
 
-//Switch / case
+/**
+ * switch / case
+ */
 switch (num) {
   case num < 49:
     console.log('Wrong!');
@@ -33,7 +37,9 @@ switch (num) {
     break;
 }
 
-//Task - rewrite IF to ?
+/**
+ * Task - rewrite IF to ?
+ */
 let result;
 
 if (a + b < 4) {
