@@ -44,7 +44,7 @@ function isAnyFishPerson(chars) {
 
 /**
  * 1. Write a method to find an index of minimal item from an array;
-* @param {array}
+* @param {array} arr
 */
 function minItem(arr) {
     //PLACE YOUR CODE HERE
