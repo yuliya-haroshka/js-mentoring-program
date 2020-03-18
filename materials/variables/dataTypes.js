@@ -3,16 +3,16 @@
  */
 let number = 4;
 let string = 'Hello!';
-let sym = Symbol();
 let boolean = true;
 let nullValue = null;
 let undefinedValue;
+let sym = Symbol();
 
 /**
  * String
  */
 const first = 'Hello';
-const second = "World";
+const second = 'World';
 const result = first + " " + second;
 
 /**
