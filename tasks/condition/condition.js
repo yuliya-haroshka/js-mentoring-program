@@ -1,4 +1,16 @@
 //conditional
+
+/** TODO
+ * Task - rewrite IF..ELSE to ternary operator
+ */
+let result;
+
+if (a + b < 4) {
+  result = 'wrong';
+} else {
+  result = 'too much';
+}
+
 /** TODO
  * The system receives two params x and y.
  * Implement the logic when z equal to sum of x and y in case both of them less than 10 or multiplication in case of greater or equal than 10
