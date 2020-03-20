@@ -23,7 +23,7 @@ function getFullName(object) {
  * true if odd, false if even
  */
 function isOdd(n) {
-
+    
 }
 
 /**
@@ -52,7 +52,7 @@ function getGoogle(n) {
  * }
  */
 function getUser(firstName, lastName, age) {
-
+    
 }
 
 /**
@@ -62,18 +62,9 @@ function getUser(firstName, lastName, age) {
  */
 
 function getTotalPath(path) {
-
+    
 }
 
-/**
- * write function that returns function that calculates given discount
- * e.g
- * const discount10 = discountFunction(10);
- * discount10(90) //returns 81
- */
-function discountFunction(discount) {
-
-}
 
 module.exports = {
     add,
@@ -83,5 +74,4 @@ module.exports = {
     getGoogle,
     getUser,
     getTotalPath,
-    discountFunction
 };
