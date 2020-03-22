@@ -3,12 +3,15 @@
 /** TODO
  * Task - rewrite IF..ELSE to ternary operator
  */
-let result;
+{
+  const a = 3,
+        b = 2;
 
-if (a + b < 4) {
-  result = 'wrong';
-} else {
-  result = 'too much';
+  if (a + b < 4) {
+    console.log('wrong');
+  } else {
+    console.log('too much');
+  }
 }
 
 /** TODO
