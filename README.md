@@ -23,7 +23,7 @@ Materials are stored in in the 'Materials' folder.
 To run tests for each module, you can use the 
 
 ```
-$> npm run test:task_N
+$> npm run test:<task>
 ```
 
-`N` is the number of a task, i.e. 1-5.
+`<task>` is the name of your current theme (e.g. npm run test:arrays)
