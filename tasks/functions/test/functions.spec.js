@@ -26,8 +26,8 @@ describe('isOdd', () => {
 });
 
 describe('getShortest', () => {
-    it('should return "one" if passing ["one", "two", "three"]', () => expect(getShortest(2)).to.equal("one"));
-    it('should return "x" if passing ["one", "two", "three", "x"]', () => expect(getShortest(3)).to.equal("x"));
+    it('should return "one" if passing ["one", "two", "three"]', () => expect(getShortest(["one", "two", "three"])).to.equal("one"));
+    it('should return "x" if passing ["one", "two", "three", "x"]', () => expect(getShortest(["one", "two", "three", "x"])).to.equal("x"));
 });
 
 describe('getGoogle', () => {
