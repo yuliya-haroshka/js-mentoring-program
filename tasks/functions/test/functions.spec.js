@@ -17,7 +17,7 @@ describe('add', () => {
 });
 
 describe('getFullName', () => {
-    it('should return "John Dou" if passing "John" and "Dou"', () => expect(getFullName('John', 'Dou')).to.equal(3));
+    it('should return "John Dou" if passing "John" and "Dou"', () => expect(getFullName({firstName: 'John', lastName: 'Dou'})).to.equal('John Dou'));
 });
 
 describe('isOdd', () => {
