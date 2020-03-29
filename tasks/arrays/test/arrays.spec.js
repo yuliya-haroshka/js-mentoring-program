@@ -3,6 +3,7 @@ const { expect } = require('chai');
 const sinon = require('sinon');
 const chars = require('../characters.json');
 const {
+    reverseString,
     getCharactersNames,
     printCharacterNames,
     getNonHumanCharacters,
@@ -74,15 +75,15 @@ describe('isAnyFishPerson', () => {
 
 describe('Example - Find an index of a minimal item of an array', () => {
 
-    it("should return an index from an array", () => {
+    it("should return the 3rd index from [2,4,5,1,2] array", () => {
         expect(minItem([2,4,5,1,2])).to.equal(3);
     });
 
-    it("should return the first index", () => {
+    it("should return the first index from [1,4,5,6,2] array", () => {
         expect(minItem([1,4,5,6,2])).to.equal(0);
     });
 
-    it("should return the last index", () => {
+    it("should return the last index from [8,4,5,6,1] array", () => {
         expect(minItem([8,4,5,6,1])).to.equal(4);
     });
 
