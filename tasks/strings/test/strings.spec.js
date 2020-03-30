@@ -79,7 +79,7 @@ describe('Replace 10', () => {
 describe('Replace Confidential', () => {
 
   it('should replace confidential in text', () => {
-    expect(replace10('lorem [ipsum] si [dolor]')).to.equal('lorem [CONFIDENTIAL] si [CONFIDENTIAL]');
+    expect(replaceConfidential('lorem [ipsum] si [dolor]')).to.equal('lorem [CONFIDENTIAL] si [CONFIDENTIAL]');
   });
 
 });
