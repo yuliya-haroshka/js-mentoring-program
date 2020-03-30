@@ -1,9 +1,24 @@
+const { describe, it } = require('mocha');
 const expect = require('chai').expect;
+
 const {
-  centuryFromYear, 
+  centuryFromYear,
   strCount,
-  truncateString
+  truncateString,
+  replace10,
+  replaceConfidential
 } = require('../strings');
+
+describe('Task 1 - Reverse a string', () => {
+
+  it("should throw an error if parameter is not a string", () => {
+    expect(reverseString(123)).to.equal('This is not a string!');
+  });
+
+  it("should reverse a string", () => {
+    expect(reverseString('hello')).to.equal('olleh');
+  });
+});
 
 describe('Calculate a century by year', () => {
 
@@ -49,6 +64,22 @@ describe('Truncate a string', () => {
     const actualStr = 'eye';
 
     expect(truncateString(actualStr, 3)).to.equal(actualStr);
+  });
+
+});
+
+describe('Replace 10', () => {
+
+  it('should replace 10 in text', () => {
+    expect(replace10('23105103')).to.equal('23ten5ten3');
+  });
+
+});
+
+describe('Replace Confidential', () => {
+
+  it('should replace confidential in text', () => {
+    expect(replace10('lorem [ipsum] si [dolor]')).to.equal('lorem [CONFIDENTIAL] si [CONFIDENTIAL]');
   });
 
 });
