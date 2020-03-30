@@ -4,7 +4,7 @@ const {
     person,
     student,
     student2
-} = require('../classes.js');
+} = require('../objects.js');
 
 describe('person', () => {
     it('should have firstName property', () => expect(person).to.have.property('firstName'));
