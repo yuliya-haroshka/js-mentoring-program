@@ -4,7 +4,7 @@ const {
     person,
     student,
     student2
-} = require('../classes.js');
+} = require('../objects.js');
 
 describe('person', () => {
     it('should have firstName property', () => expect(person).to.have.property('firstName'));
@@ -21,6 +21,7 @@ describe('student', () => {
 });
 
 describe('student2', () => {
+    console.log(student2);
     it('should have grade property', () => expect(student2).to.have.property('grade'));
     it('should have getGrade method', () => expect(student2.getGrade()).to.equal(student2.grade));
 });
