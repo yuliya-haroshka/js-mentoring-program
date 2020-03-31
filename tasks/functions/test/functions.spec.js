@@ -13,7 +13,7 @@ const {
 describe('add', () => {
     it('should return 3 if passing 1 and 2', () => expect(add(1, 2)).to.equal(3));
     it('should return 1 if passing -1 and 2', () => expect(add(-1, 2)).to.equal(1));
-    it('should return 1 if passing -1 and -2', () => expect(add(-1, -2)).to.equal(-3));
+    it('should return -3 if passing -1 and -2', () => expect(add(-1, -2)).to.equal(-3));
 });
 
 describe('getFullName', () => {
