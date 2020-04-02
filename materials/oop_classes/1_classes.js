@@ -3,15 +3,14 @@
  */
 class Car {
   constructor(brand) {
-    this.carname = brand;
+    this.brand = brand;
   }
 }
 
 /**
  * Create an object called "mycar" based on the Car class
  */
-mycar = new Car("Ford");
-console.log(mycar);
+
 
 /**
  * Create a method named "present"

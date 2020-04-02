@@ -1,39 +1,38 @@
-const options = {
-  width: 1024,
-  height: 1024,
-  name: "test",
-  'name-test': 'test-1' 
-};
+/**
+ * Data types and this
+ */
+const options = {};
+
 
 /**
  * getting the property
  */
-console.log(options.name); // test
-console.log(options['name-test']); // test
+//console.log(options.name); // test
+//console.log(options['name-test']); // test
 
 /**
  * add a property
  */
-options.myProperty = 'testProperty';
+//options.myProperty = 'testProperty';
 
 /**
  * Add another object to an existing object
  */
-options.colors = {
-    border: "black",
-    background: "red"
-}; 
-console.log(options);
+// options.colors = {
+//     border: "black",
+//     background: "red"
+// }; 
+// console.log(options);
 
 /**
  * delete the listed property from the object
  */
-delete options.myProperty; 
-console.log(options);
+// delete options.myProperty; 
+// console.log(options);
 
 /**
  * for..in
  */
-for (let key in options) {
-  console.log(`Property ${key} has a value ${options[key]}`); 
-}
+// for (let key in options) {
+//   console.log(`Property ${key} has a value ${options[key]}`); 
+// }
