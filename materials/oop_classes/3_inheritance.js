@@ -2,23 +2,35 @@
  * Create a class named "Model" which will inherit the methods from the "Car" class
  */
 class Car {
-  constructor(brand) {
-    this.carname = brand;
+  constructor(brand, year) {
+    this.brand = brand;
+    this.year = year;
   }
+
   present() {
-    return 'I have a ' + this.carname;
+    return `I have a car with the brand ${this.brand} and ${this.year} year`;
+  }
+  /**
+ * Getters / setters
+ */
+  get myBrand() {
+    return this.brand;
+  }
+
+  set myBrand(brand) {
+    this.brand = brand;
   }
 }
- 
+
 class Model extends Car {
-  constructor(brand, mod) {
-    super(brand);
-    this.model = mod;
+  constructor(brand, year, model) {
+    super(brand, year);
+    this.model = model;
   }
-  show() {
-    return this.present() + ', it is a ' + this.model;
+
+  present() {
+    return super.present() + ` model ${this.model}`;
   }
 }
- 
-mycar = new Model("Ford", "Mustang");
-console.log(mycar.show());
+
+const mycar = new Model('ford', 1932, 'Model T');

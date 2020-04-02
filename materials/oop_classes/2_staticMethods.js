@@ -1,19 +1,26 @@
 /**
- * Create a static method and call it on the class
+ * static methods
  */
 class Car {
-  constructor(brand) {
-    this.carname = brand;
+  constructor(brand, year) {
+    this.brand = brand;
+    this.year = year;
   }
-  static hello() {
-    return "Hello!!";
+
+  static present() {
+    return `I have a car with the brand ${this.brand} and ${this.year} year`;
   }
+  /**
+ * Getters / setters
+ */
+  get myBrand() {
+    return this.brand;
+  }
+
+  set myBrand(brand) {
+    this.brand = brand;
+  }
+
 }
- 
-mycar = new Car("Ford");
- 
-//Call 'hello()' on the class Car:
-console.log(Car.hello());
- 
-//and NOT on the 'mycar' object:
-console.log(mycar.hello()); //this would raise an error.
+
+const myCar = new Car('ford', 1994);
