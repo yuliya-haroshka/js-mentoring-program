@@ -2,6 +2,7 @@ const { describe, it } = require('mocha');
 const expect = require('chai').expect;
 
 const {
+  reverseString,
   centuryFromYear,
   strCount,
   truncateString,
