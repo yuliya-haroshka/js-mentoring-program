@@ -5,6 +5,11 @@ const options = {};
 
 
 /**
+ * Arrays
+ */
+
+ 
+/**
  * getting the property
  */
 //console.log(options.name); // test
