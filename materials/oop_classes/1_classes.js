@@ -9,6 +9,9 @@ const car = {
 /**
  * Create a class with methods
  */
+
+
+
 class Car {
   constructor(brand, year) {
     this.brand = brand;
@@ -16,20 +19,18 @@ class Car {
   }
 
   present() {
-    return `I have a car with the brand ${this.brand} and ${this.year} year`;
-  }
-  /**
- * Getters / setters
- */
-  get myBrand() {
-    return this.brand;
+    return `I have a car with the brand ${this.brand} and ${this.year}`;
   }
 
-  set myBrand(brand) {
-    this.brand = brand;
+  get brandName() {
+    return this.brand + 'SSSS';
   }
 
+  set brandName(name) {
+    this.brand = name;
+  }
 }
 
-const myCar = new Car('ford', 1994);
+const ford = new Car('FORD', 1995);
 
+console.log(ford);

@@ -1,7 +1,19 @@
 /**
  * Data types and this
  */
-const options = {};
+const options = {
+  width: 1024,
+  color: 'red',
+  fonts: ['times new roman', 'helvetica', 'calibri'],
+  isModified: true,
+  additionalOptions: {
+    backgroundColor: 'blue',
+    size: '12px'
+  },
+  getColor: function() {
+    return this.color;
+  }
+};
 
 
 /**
