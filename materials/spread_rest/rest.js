@@ -23,12 +23,14 @@ log(...numbers); // it will
  * Desctruct an object
  */
 const destrObj = { name: 'Joe', lastName: 'Doe' };
+
+
 const { name: userName, lastName: surName } = destrObj;
 
 console.log(userName, surName); // Joe Doe
 
 // The same behavior
 // const destrObj = { name: 'Joe', lastName: 'Doe' };
-// const { userName, surName } = destrObj;
+// const {name, lastName} = destrObj;
 
-// console.log(userName, surName); // Joe Doe
+// console.log(name, lastName); // Joe Doe

@@ -4,7 +4,6 @@
 const video = ['youtube', 'netflix', 'rutube'];
 const socials = ['vk', 'instagram', 'twitter'];
 let internet = [video, socials, 'facebook'];
-
 console.log(internet); // [Array(3), Array(3), "facebook"] :(
 internet = [...video, ...socials, 'facebook'];
 
@@ -17,7 +16,7 @@ const arr = [1,2,3];
 const arr2 = [...arr];
 
 /**
- * Spread for objects
+ * Copy an object
  */
 const obj1 = { a:1, b:2 };
 const obj2 = { c:3, d:4 };
