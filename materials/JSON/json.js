@@ -1,4 +1,3 @@
-const optionsJson = require('./file.json');
 const options = {
   width: 1024,
   height: 1024,
