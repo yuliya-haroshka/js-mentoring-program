@@ -65,6 +65,16 @@ function getTotalPath(path) {
     
 }
 
+/**
+ * write a function that will calculate a discount considering the Amount
+ * and the percentage (hint: you need to use the Closure here)
+ * @param {amount} num 
+ * @param {percentage} num 
+ */
+
+function discountFunction(amount) {
+    
+}
 
 module.exports = {
     add,
@@ -74,4 +84,5 @@ module.exports = {
     getGoogle,
     getUser,
     getTotalPath,
+    discountFunction
 };
