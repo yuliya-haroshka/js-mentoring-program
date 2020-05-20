@@ -23,7 +23,7 @@ function getFullName(object) {
  * true if odd, false if even
  */
 function isOdd(n) {
-    
+
 }
 
 /**
@@ -52,7 +52,7 @@ function getGoogle(n) {
  * }
  */
 function getUser(firstName, lastName, age) {
-    
+
 }
 
 /**
@@ -62,7 +62,7 @@ function getUser(firstName, lastName, age) {
  */
 
 function getTotalPath(path) {
-    
+
 }
 
 /**
@@ -73,16 +73,38 @@ function getTotalPath(path) {
  */
 
 function discountFunction(amount) {
-    
+
 }
 
+/**
+ * Write the methods inside the given objects that:
+ * 1. console logs keys of the given object
+ * 2. returns the string 'My name is John Doe and I am 25 years old. My best friend is Daniel'
+ * reffering to the data stored in the object
+ */
+
+const myObject = {
+	name: 'John',
+	lastName: 'Doe',
+	age: 25,
+	friends: ['Mike', 'Alan', 'Daniel'],
+	keys() {
+		//write your code here
+	},
+	call() {
+		//write your code here
+	}
+
+};
+
 module.exports = {
-    add,
-    getFullName,
-    isOdd,
-    getShortest,
-    getGoogle,
-    getUser,
-    getTotalPath,
-    discountFunction
+	add,
+	getFullName,
+	isOdd,
+	getShortest,
+	getGoogle,
+	getUser,
+	getTotalPath,
+	discountFunction,
+	myObject
 };
