@@ -33,6 +33,18 @@ switch (num) {
     console.log('That is right!');
     break;
   default:
-    console.log('Default behaviour'); 
+    console.log('Default behaviour');
     break;
+}
+
+const os = require("os");
+const WIN = "win32";
+const LINUX = "linux";
+
+if (os.platform() === WIN) {
+  console.log("script.bat");
+} else if (os.platform() === LINUX) {
+  console.log("script.sh");
+} else {
+  console.log("no appropriate script");
 }
