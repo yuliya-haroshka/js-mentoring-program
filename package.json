@@ -8,7 +8,7 @@
     "test:functions": "mocha tasks/functions/test/*.spec.js",
     "test:arrays": "mocha tasks/arrays/test/*.spec.js",
     "test:strings": "mocha tasks/strings/test/*.spec.js",
-    "test:objects": "mocha tasks/classes/test/objects.spec.js",
+    "test:objects": "mocha tasks/objects/test/objects.spec.js",
     "test:classes": "mocha tasks/classes/test/classes.spec.js",
     "test:async": "mocha tasks/async/test/*.spec.js"
   },
