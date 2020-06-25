@@ -70,6 +70,9 @@ function getTotalPath(path) {
  * and the percentage (hint: you need to use the Closure here)
  * @param {amount} num 
  * @param {percentage} num 
+ * e.g const discount10 = discountFunction(10);
+ * discount10(90) should return 81
+ * discount10(100) should return 90
  */
 
 function discountFunction(amount) {
@@ -80,7 +83,7 @@ function discountFunction(amount) {
  * Write the methods inside the given objects that:
  * 1. console logs keys of the given object
  * 2. returns the string 'My name is John Doe and I am 25 years old. My best friend is Daniel'
- * reffering to the data stored in the object
+ * reffering to the data stored in the object. The string should be constructed using the properties from the object
  */
 
 const myObject = {
