@@ -68,15 +68,17 @@ function getTotalPath(path) {
 /**
  * write a function that will calculate a discount considering the Amount
  * and the percentage (hint: you need to use the Closure here)
- * @param {amount} num 
- * @param {percentage} num 
+ * @param {amount} num
+ * @param {percentage} num
  * e.g const discount10 = discountFunction(10);
  * discount10(90) should return 81
  * discount10(100) should return 90
  */
 
-function discountFunction(amount) {
+function discountFunction(percentage) {
 
+	return function (amount) {
+	};
 }
 
 /**
