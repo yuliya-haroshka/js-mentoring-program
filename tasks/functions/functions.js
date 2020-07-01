@@ -2,7 +2,7 @@
  * write function that adds two numbers
  *
  */
-function add(a, b) {
+function sum(a, b) {
 
 }
 
@@ -75,7 +75,7 @@ function getTotalPath(path) {
  * discount10(100) should return 90
  */
 
-function discountFunction(amount) {
+function discountFunction(percentage) {
 
 }
 
