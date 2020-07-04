@@ -9,47 +9,33 @@ const options = {
   additionalOptions: {
     backgroundColor: 'blue',
     size: '12px'
-  },
-  getColor: function() {
-    return this.color;
   }
 };
 
-
-/**
- * Arrays
- */
-
- 
 /**
  * getting the property
  */
-//console.log(options.name); // test
-//console.log(options['name-test']); // test
 
 /**
- * add a property
+ * getting the property by creating a variable
  */
-//options.myProperty = 'testProperty';
+
+
+/**
+ * adding a property
+ */
+
 
 /**
  * Add another object to an existing object
  */
-// options.colors = {
-//     border: "black",
-//     background: "red"
-// }; 
-// console.log(options);
+
 
 /**
  * delete the listed property from the object
  */
-// delete options.myProperty; 
-// console.log(options);
+
 
 /**
  * for..in
  */
-// for (let key in options) {
-//   console.log(`Property ${key} has a value ${options[key]}`); 
-// }

@@ -1,15 +1,16 @@
 const employee = {
-  firstName: 'John',
-  lastName: 'Cooper',
-  title: 'Senior Director',
+  title: 'default title',
   getTitle: function() {
     return console.log(this.title);
   }
 };
 
+employee.sayHello();
+employee.toString();
 employee.getTitle();
-//review prototype
-// const employee2 = Object.create(employee);
-// employee2.name
-//employee2.name = 'Peter';
-//Object.setPrototypeOf(student, person);
+const peter = Object.create(employee);
+
+/**
+ * Set a prototype to the existing object
+ * Object.setPrototypeOf(helen, employee);
+ */

@@ -1,38 +1,47 @@
-// const options = {
-//   width: 1024,
-//   height: 1024,
-//   name: "test",
-//   'name-test': 'test-1' 
-// };
+const options = {
+  width: 1024,
+  height: 1024,
+  name: "test"
+};
 
-// /**
-//  * hasOwnProperty()
-//  */
-// console.log(options.hasOwnProperty('width')); // true
-// console.log(options.hasOwnProperty('test')); // false
+/**
+ * hasOwnProperty()
+ */
+console.log(options.hasOwnProperty('width'));
+console.log(options.hasOwnProperty('test'));
 
-// /**
-//  * Object.keys()
-//  */
-// console.log('KEYS:');
-// console.log(Object.keys(options));
+/**
+ * Object.keys()
+ */
+console.log(`KEYS: ${Object.keys(options)}`);
 
 // /**
 //  * Object.values()
 //  */
-// console.log('VALUES:');
-// console.log(Object.values(options));
-// /**
-//  * Reference types
-//  */
+console.log(`VALUES: ${Object.values(options)}`);
 
-const obj1 = {a: 1, b: 2};
+
+/**
+ * Copy the object
+ */
+
+const obj1 = {
+  a: 1,
+  b: 2
+};
 
 // /**
 //  * Object.assign()
 //  */
-// const target = { a: 1, b: 2 };
-// const source = { b: 4, c: 5 };
+const target = {
+  a: 1,
+  b: 2
+};
+const source = {
+  b: 4,
+  c: 5
+};
+
 // const returnedTarget = Object.assign({}, source);
 
 
