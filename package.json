@@ -10,7 +10,8 @@
     "test:strings": "mocha tasks/strings/test/*.spec.js",
     "test:objects": "mocha tasks/objects/test/objects.spec.js",
     "test:classes": "mocha tasks/classes/test/classes.spec.js",
-    "test:async": "mocha tasks/async/test/*.spec.js"
+    "test:async": "mocha tasks/async/test/*.spec.js",
+    "start": "mocha ./start.js"
   },
   "repository": {
     "type": "git",
