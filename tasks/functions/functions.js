@@ -1,14 +1,14 @@
 /**
- * write function that adds two numbers
+ * write function that will do sum for two numbers
  *
  */
 function sum(a, b) {
-
+	
 }
 
 /**
- * write function that return first and last name of given object
- * properties firstName and lastName
+ * write function that return first and last name of a given object
+ * properties are firstName and lastName
  * {
  *    firstName: "John"
  *    lastName: "Dou"
@@ -19,7 +19,7 @@ function getFullName(object) {
 }
 
 /**
- * write fuction that checks is number is odd
+ * write fuction that checks if number is odd
  * true if odd, false if even
  */
 function isOdd(n) {
@@ -27,7 +27,7 @@ function isOdd(n) {
 }
 
 /**
- * write function that return shortest of words in given array
+ * write function that return shortest of words in the given array
  * e.g ["one", "two", "three"] should return one
  */
 function getShortest(wordArray) {
@@ -43,7 +43,8 @@ function getGoogle(n) {
 }
 
 /**
- * write function that returns object based on given information (params may be null)
+ * write function that returns object based on the given information 
+ * (params may be null, so, please use default params)
  * getUser("John", "Dou", 42) should return
  * {
  *    firstName: "John"
@@ -68,8 +69,8 @@ function getTotalPath(path) {
 /**
  * write a function that will calculate a discount considering the Amount
  * and the percentage (hint: you need to use the Closure here)
- * @param {amount} num
  * @param {percentage} num
+ * @param {amount} num
  * e.g const discount10 = discountFunction(10);
  * discount10(90) should return 81
  * discount10(100) should return 90
@@ -83,7 +84,7 @@ function discountFunction(percentage) {
 
 /**
  * Write the methods inside the given objects that:
- * 1. console logs keys of the given object
+ * 1. console logs keys of the given object (please use for..in cycle)
  * 2. returns the string 'My name is John Doe and I am 25 years old. My best friend is Daniel'
  * reffering to the data stored in the object. The string should be constructed using the properties from the object
  */
@@ -103,7 +104,7 @@ const myObject = {
 };
 
 module.exports = {
-	add,
+	sum,
 	getFullName,
 	isOdd,
 	getShortest,
