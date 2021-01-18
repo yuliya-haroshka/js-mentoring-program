@@ -38,3 +38,14 @@
 /**
  * TODO set new key of human object named fullName and value of concatenation of firstName and lastName values
  */
+
+module.exports = {
+  int,
+  int2,
+  str,
+  str2,
+  bool,
+  arr,
+  fifth,
+  human
+};

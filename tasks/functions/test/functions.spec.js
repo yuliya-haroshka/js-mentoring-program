@@ -1,7 +1,7 @@
 const { describe, it } = require('mocha');
 const { expect } = require('chai');
 const {
-	add,
+	sum,
 	getFullName,
 	isOdd,
 	getShortest,
@@ -13,10 +13,10 @@ const {
 } = require('../functions');
 const sinon = require('sinon');
 
-describe('add', () => {
-	it('should return 3 if passing 1 and 2', () => expect(add(1, 2)).to.equal(3));
-	it('should return 1 if passing -1 and 2', () => expect(add(-1, 2)).to.equal(1));
-	it('should return -3 if passing -1 and -2', () => expect(add(-1, -2)).to.equal(-3));
+describe('sum', () => {
+	it('should return 3 if passing 1 and 2', () => expect(sum(1, 2)).to.equal(3));
+	it('should return 1 if passing -1 and 2', () => expect(sum(-1, 2)).to.equal(1));
+	it('should return -3 if passing -1 and -2', () => expect(sum(-1, -2)).to.equal(-3));
 });
 
 describe('getFullName', () => {

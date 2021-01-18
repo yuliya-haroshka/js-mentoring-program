@@ -4,14 +4,15 @@
   "description": "Repository for learning tasks",
   "main": "index.js",
   "scripts": {
+    "test:intro": "mocha tasks/introduction/*.spec.js",
+    "test:variables": "mocha tasks/variables/test/*.spec.js",
     "test:cycles": "mocha tasks/cycles/test/*.spec.js",
     "test:functions": "mocha tasks/functions/test/*.spec.js",
     "test:arrays": "mocha tasks/arrays/test/*.spec.js",
     "test:strings": "mocha tasks/strings/test/*.spec.js",
     "test:objects": "mocha tasks/objects/test/objects.spec.js",
     "test:classes": "mocha tasks/classes/test/classes.spec.js",
-    "test:async": "mocha tasks/async/test/*.spec.js",
-    "start": "mocha ./start.js"
+    "test:async": "mocha tasks/async/test/*.spec.js"
   },
   "repository": {
     "type": "git",
