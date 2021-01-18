@@ -46,7 +46,7 @@ describe('Task 2 - operator', () => {
 
 describe('Task 2 - discount', () => {
 
-  it('should return 0 if passing a string', () => {
+  it('discount should equal expected value', () => {
     const ex = expect(discount);
     if (redemption - 351 < 0) ex.to.equal(0);
     else if (redemption - 1351 < 0) ex.to.equal(15);
