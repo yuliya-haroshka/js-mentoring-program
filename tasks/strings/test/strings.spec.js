@@ -16,8 +16,12 @@ describe('Task 1 - Reverse a string', () => {
     expect(reverseString(123)).to.equal('This is not a string!');
   });
 
-  it("should reverse a string", () => {
+  it("should reverse a string 'hello' ", () => {
     expect(reverseString('hello')).to.equal('olleh');
+  });
+
+  it("should reverse a string 'ALLEREDNIC' ", () => {
+    expect(reverseString('ALLEREDNIC')).to.equal('CINDERELLA');
   });
 });
 
@@ -28,9 +32,7 @@ describe('Calculate a century by year', () => {
   ];
 
   expectedResults.forEach(result => {
-    it(`should return ${result[1]} for ${result[0]} year`, () => {
-        return expect(centuryFromYear(result[0])).to.equal(result[1]);
-    });
+    it(`should return ${result[1]} for ${result[0]} year`, () => expect(centuryFromYear(result[0])).to.equal(result[1]));
   });
 
 });
@@ -56,14 +58,11 @@ describe('Truncate a string', () => {
   it('should truncate a string', () => {
     const actualStr = 'The longest string';
     const expectedStr = 'The lo...';
-
     expect(truncateString(actualStr, 6)).to.equal(expectedStr);
   });
 
   it('should return an initial string if the length is less than truncated number', () => {
-
     const actualStr = 'eye';
-
     expect(truncateString(actualStr, 3)).to.equal(actualStr);
   });
 
