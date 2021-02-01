@@ -1,20 +1,40 @@
-const calculateDiscount = require('../cycles');
 const expect = require('chai').expect;
+const {
+    forFactorial,
+    whileFactorial,
+    doFactorial,
+    str,
+    totalIncome
+} = require('../cycles');
 
-describe('Calculate a discount test', () => {
+describe('Task1', () => {
 
-  it('should return 0 if passing a string', () => {
-    expect(calculateDiscount('hello')).to.equal(0);
-  });
-
-  const expectedResults = [
-    [0, 0], [360, 15], [1360, 30]
-  ];
-
-  expectedResults.forEach(result => {
-    it(`should return ${result[1]} for ${result[0]}`, () => {
-        return expect(calculateDiscount(result[0])).to.equal(result[1]);
+    it('forFactorial', () => {
+        expect(forFactorial).to.equal(3628800);
     });
-  });
+
+    it('whileFactorial', () => {
+        expect(whileFactorial).to.equal(3628800);
+    });
+
+    it('doFactorial', () => {
+        expect(doFactorial).to.equal(3628800);
+    });
+
+});
+
+describe('Task2', () => {
+
+    it('str', () => {
+        expect(str).to.equal('I love JS');
+    });
+
+});
+
+describe('Task3', () => {
+
+    it('str', () => {
+        expect(totalIncome).to.equal(1335);
+    });
 
 });
