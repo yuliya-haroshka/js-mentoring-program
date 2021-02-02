@@ -1,6 +1,20 @@
 /**
- * Organize a page object structure of any app you want:
- * 1. Base page should be created
- * 2. At least one of the child pages should be inherited from the page
- * 3. Create a simple walk through scenarios using the described elements (how it was done on the sessions for Login functionality)
+ * Organize a page object structure https://drive.google.com/file/d/1w3B4Z2ABy2AkacJFRlQosrYXwwv3jw_V/view
  */
+
+class BasePage {
+	
+}
+
+class LoginPage {
+
+}
+
+class Component {
+	
+}
+
+module.exports = {
+	BasePage,
+	LoginPage
+};
