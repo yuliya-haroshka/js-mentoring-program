@@ -6,7 +6,8 @@ const login = new LoginPage('www.test.com');
 describe('Page Object', () => {
 	
 	it('LoginPage should inherite BasePage', () => {
-		expect(Object.getPrototypeOf(LoginPage)).to.equal(BasePage);
+		expect(login instanceof LoginPage, 'LoginPage is not inherited from BasePage').to.equal(true);
+		expect(login instanceof BasePage, 'LoginPage is not inherited from BasePage').to.equal(true);
 	});
 
 	it('url should be defined', () => {
@@ -30,11 +31,13 @@ describe('Page Object', () => {
 	});
 
 	it('should be able to type an Email', () => {
-		expect(login.typeEmail('test@test.com')).to.equal('type test@test.com into email');
+		expect(login.typeEmail('test@test.com')).to.contain('type');
+		expect(login.typeEmail('test@test.com')).to.contain('email');
 	});
 
 	it('should be able to type a Password', () => {
-		expect(login.typePassword('abc')).to.equal('type abc into password');
+		expect(login.typePassword('abc')).to.contain('type');
+		expect(login.typePassword('abc')).to.contain('password');
 	});
 
 	it('should be able submit the form', () => {
