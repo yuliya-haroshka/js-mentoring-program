@@ -14,8 +14,8 @@
  */
 //put your code here
 
-const person = //create instance of class person
-const student = //create instance of class student
+const person = ''; //create instance of class person
+const student = ''; //create instance of class student
 
 module.exports = {
     person,
