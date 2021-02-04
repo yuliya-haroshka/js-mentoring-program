@@ -12,5 +12,15 @@
  * ]
  * where 077b1523-56f0-492a-b954-1269e3acc191 - is the value of the name attribute from the ./test.json file
  * Please NOTE, that you should omit the .html extension
- * Please do the task in the scope of the file. Create a pull request a share it with your mentor.
+ * Check yourself by running npm run test:nodejs
  */
+const fs = require('fs');
+
+const jsonParser = () => {
+
+};
+
+module.exports = {
+	jsonParser
+};
+

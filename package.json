@@ -1,6 +1,6 @@
 {
   "name": "js-mentoring-program",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Repository for learning tasks",
   "scripts": {
     "test:intro": "mocha tasks/introduction/*.spec.js",
@@ -12,7 +12,8 @@
     "test:objects": "mocha tasks/objects/test/objects.spec.js",
     "test:classes": "mocha tasks/classes/test/classes.spec.js",
     "test:po": "mocha tasks/classes/test/po.spec.js",
-    "test:async": "mocha tasks/async/test/*.spec.js"
+    "test:async": "mocha tasks/async/test/*.spec.js",
+    "test:nodejs": "mocha tasks/nodeJs/test/*.spec.js"
   },
   "repository": {
     "type": "git",
