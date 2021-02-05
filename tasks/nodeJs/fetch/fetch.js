@@ -1,5 +1,5 @@
 /**
- * 1. You need to make a GET request (via async/await) for the resource: https://jsonplaceholder.typicode.com/posts 
+ * 1. You need to make a GET request (via async/await) to the resource: https://jsonplaceholder.typicode.com/posts 
  * using fetch method inside the sendRequest function
  * 2. Save the response to response.json file
  * 3. Save only those items, where id < 20
