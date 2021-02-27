@@ -17,7 +17,7 @@ describe('Task 2 - Variables and Data Types', () => {
   });
 
   it('str2 variable should be created', () => {
-    expect(vars.str2).to.equal('Dou');
+    expect(vars.str2).to.equal('John Dou');
   });
 
   it('bool variable should be created', () => {
