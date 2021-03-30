@@ -30,7 +30,7 @@ function handleErrorCallback() {
 }
 
 /**
- * throw error come from promiseFunctionError
+ * log error come from promiseFunctionError
  */
 function handlePromiseError() {
 }
