@@ -9,7 +9,8 @@ function promiseFunction() {
 }
 
 function callbackFunctionError(cb) {
-    cb(new Error("Error"));
+   cb();
+   throw new Error("Error");
 }
 
 function promiseFunctionError() {
