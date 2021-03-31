@@ -24,19 +24,23 @@ async function printDataAsyncAwait() {
 }
 
 /**
- * throw error data from callbackFunctionError
+ * call callbackFunctionError with ()=>{} callback
+ * catch an error come from callbackFunctionError
+ * throw new error with 'Intercepted Error' message
  */
 function handleErrorCallback() {
 }
 
 /**
- * throw error come from promiseFunctionError
+ * catch an error come from promiseFunctionError
+ * throw new error with 'Intercepted Error' message
  */
 function handlePromiseError() {
 }
 
 /**
- * throw error come from promiseFunctionError using async/await
+ * catch an error come from promiseFunctionError using async/await
+ * throw new error with 'Intercepted Error' message
  */
 async function handleAsyncAwaitError() {
 }

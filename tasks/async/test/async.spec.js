@@ -1,5 +1,5 @@
-const { describe, it } = require('mocha');
-const { expect } = require('chai');
+const {describe, it} = require('mocha');
+const {expect} = require('chai');
 const sinon = require('sinon');
 const {
     printDataCallback,
@@ -20,7 +20,7 @@ describe('callback', () => {
     });
 
     it('should handle error', () => {
-        expect(handleErrorCallback).to.throw('Error');
+        expect(handleErrorCallback).to.throw('Intercepted Error');
     });
 });
 
@@ -34,7 +34,11 @@ describe('promise', () => {
     });
 
     it('should handle error', () => {
-        expect(handlePromiseError).to.throw('Error');
+        try {
+            handlePromiseError();
+        } catch (e) {
+            expect(e.message).to.equal('Intercepted Error');
+        }
     });
 });
 
@@ -49,7 +53,7 @@ describe('async/await', () => {
 
     it('should handle error', () => {
         return handleAsyncAwaitError().catch(err => {
-            expect(err.message).to.equal('Error');
+            expect(err.message).to.equal('Intercepted Error');
         });
     });
 });
