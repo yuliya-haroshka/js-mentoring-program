@@ -19,7 +19,7 @@ const y = 7;
  * The system receives 3 params - alpha, beta, operator.
  * Operator can pass 4 possible values - "add", "subtract", "multiply", "divide".
  * Implement the logic when the system does appropriate operation based on passed operator param.
- * Assign result to task3 variable
+ * Assign result to task2 variable
  */
 let task2;
 const alpha = 3;

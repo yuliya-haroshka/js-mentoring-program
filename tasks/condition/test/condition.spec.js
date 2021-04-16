@@ -44,7 +44,7 @@ describe('Task 2 - operator', () => {
 
 });
 
-describe('Task 2 - discount', () => {
+describe('Task 3 - discount', () => {
 
   it('discount should equal expected value', () => {
     const ex = expect(discount);
