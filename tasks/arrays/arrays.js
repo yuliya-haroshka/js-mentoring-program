@@ -6,7 +6,7 @@
 function getCharactersNames(chars) {}
 
 /**
- * print (console.log) ids of all characters
+ * print (console.log) names of all characters
  * @param {Array} chars
  */
 function printCharacterNames(chars) {}
