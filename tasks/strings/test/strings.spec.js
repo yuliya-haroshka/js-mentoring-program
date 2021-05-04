@@ -61,7 +61,7 @@ describe('Truncate a string', () => {
     expect(truncateString(actualStr, 6)).to.equal(expectedStr);
   });
 
-  it('should return an initial string if the length is less than truncated number', () => {
+  it('should return an initial string if the length is less than or equal to the truncated number', () => {
     const actualStr = 'eye';
     expect(truncateString(actualStr, 3)).to.equal(actualStr);
   });
