@@ -1,53 +1,37 @@
 /**
- * then
+ * The Promise object represents the eventual completion (or failure) 
+ * of an asynchronous operation and its resulting value.
  */
-const myFirstPromise = new Promise((resolve, reject) => {
-    setTimeout( function() {
-      resolve("Success!");
-    }, 250); 
-  });
+
+/**
+ * A Promise is in one of these states:
+ * pending: initial state, neither fulfilled nor rejected.
+ * fulfilled: meaning that the operation was completed successfully.
+ * rejected: meaning that the operation failed.
+ */
+
+const myPromise = () => {
   
-  myFirstPromise.then((successMessage) => {
-    console.log("Yay! " + successMessage); 
-  });
+};
+
+
+const promise1 = () => {
+
+};
+
+const promise2 = () => {
+  
+};
+
 
 /**
- * catch
+ * The Promise.all() method takes an iterable of promises as an input, 
+ * and returns a single Promise that resolves to an array of the results of the input promises.
  */
-const promise1 = new Promise(function(resolve, reject) {
-  throw 'Uh-oh!';
-});
 
-promise1.catch(function(error) {
-  console.error(error);
-});
 
 /**
- * Promise.all
+ * The Promise.race() method returns a promise that fulfills or rejects 
+ * as soon as one of the promises in an iterable fulfills or rejects, with the value or reason from that promise.
  */
-const pr1 = Promise.resolve(3);
-const pr2 = 42;
-const pr3 = new Promise(function(resolve, reject) {
-  setTimeout(resolve, 100, 'foo');
-});
-
-Promise.all([pr1, pr2, pr3]).then(function(values) {
-  console.log(values);
-}); // expected output: Array [3, 42, "foo"]
-
-/**
- * Promise.race
- */
-const p1 = new Promise(function(resolve, reject) {
-  setTimeout(resolve, 500, 'one');
-});
-
-const p2 = new Promise(function(resolve, reject) {
-  setTimeout(resolve, 100, 'two');
-});
-
-Promise.race([p1, p2]).then(function(value) {
-console.log(value);
-// Both resolve, but p2 is faster
-});
-// expected output: "two"
+ 
