@@ -39,7 +39,7 @@ describe('Promises', () => {
 	it('should resolve the set of promises', async () => {
 
 		/**
-		 * Handle these 2 functions using the Promise.all()
+		 * Handle these 2 functions using the Promise.all() (return it)
 		 * Save the the result as 'res' variable
 		 */
 		promise1();
@@ -79,6 +79,9 @@ describe('Async/await', () => {
 
 
 		// end of your code
+		/**
+		 * Place it inside the catch {} block
+		 */
 		expect(e).to.equal('I am rejected');
 	});
 
