@@ -7,7 +7,7 @@ describe('Promises', () => {
 	it('should resolve the promise', async () => {
 
 		/**
-		 * handle the promise (do not forget to return it)
+		 * resolve the promise (do not forget to return it)
 		 * handle the result as 'res' variable
 		 */
 		myPromise(true);
@@ -32,14 +32,14 @@ describe('Promises', () => {
 		 * place it inside the .catch() block
 		 * 
 		 */
-		 expect(res).to.equal('I am rejected');
+		expect(res).to.equal('I am rejected');
 		 
 	});
 
 	it('should resolve the set of promises', async () => {
 
 		/**
-		 * Handle these 2 functions using the Promise.all() (return it)
+		 * Resolve these 2 functions using the Promise.all() (return it)
 		 * Save the the result as 'res' variable
 		 */
 		promise1();
@@ -47,7 +47,7 @@ describe('Promises', () => {
 
 
 		/**
-		 * and place 2 following expect() blocks inside the .then() block
+		 * and place 2 following expect()'s inside the .then() block
 		 */
 		 expect(res).to.include('promise1');
 		 expect(res).to.include('promise2');
@@ -73,6 +73,7 @@ describe('Async/await', () => {
 	it('should reject the promise using async/await', async () => {
 		/**
 		 * catch the error using the variable 'e'
+		 * hint: use try..catch block
 		 */
 		//Place you code here:
 		myPromise();
