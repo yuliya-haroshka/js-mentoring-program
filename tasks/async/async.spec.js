@@ -7,14 +7,13 @@ describe('Promises', () => {
 	it('should resolve the promise', async () => {
 
 		/**
-		 * resolve the promise (do not forget to return it)
-		 * handle the result as 'res' variable
+		 * 1. Resolve the promise (do not forget to return it)
+		 * 2. Handle the result as 'res' variable
 		 */
 		myPromise(true);
 
 		/**
-		 * place it inside the .then() block
-		 * 
+		 * 3. Place it inside the .then() block
 		 */
 		 expect(res).to.equal('I am resolved');
 		 
@@ -23,14 +22,13 @@ describe('Promises', () => {
 	it('should reject the promise', async () => {
 
 		/**
-		 * handle the promise's rejection (do not forget to return in)
-		 * and catch the result as 'res' variable
+		 * 1. Handle the promise's rejection (do not forget to return in)
+		 * 2. Catch the result as 'res' variable
 		 */
 		myPromise();
 
 		/**
-		 * place it inside the .catch() block
-		 * 
+		 * 3. Place it inside the .catch() block
 		 */
 		expect(res).to.equal('I am rejected');
 		 
@@ -39,15 +37,15 @@ describe('Promises', () => {
 	it('should resolve the set of promises', async () => {
 
 		/**
-		 * Resolve these 2 functions using the Promise.all() (return it)
-		 * Save the the result as 'res' variable
+		 * 1. Resolve these 2 functions using the Promise.all() (return it)
+		 * 2. Save the result as 'res' variable
 		 */
 		promise1();
 		promise2();
 
 
 		/**
-		 * and place 2 following expect()'s inside the .then() block
+		 * 3. Place 2 following expect()'s inside the .then() block
 		 */
 		 expect(res).to.include('promise1');
 		 expect(res).to.include('promise2');
@@ -60,7 +58,7 @@ describe('Async/await', () => {
 
 	it('should resolve the promise using async/await', async () => {
 		/**
-		 * save the result as the variable 'res';
+		 * Save the result as the variable 'res';
 		 */
 		//Place you code here:
 		myPromise(true);
@@ -72,7 +70,7 @@ describe('Async/await', () => {
 
 	it('should reject the promise using async/await', async () => {
 		/**
-		 * catch the error using the variable 'e'
+		 * 1. Catch the error using the variable 'e'
 		 * hint: use try..catch block
 		 */
 		//Place you code here:
@@ -81,7 +79,7 @@ describe('Async/await', () => {
 
 		// end of your code
 		/**
-		 * Place it inside the catch {} block
+		 * 2. Place it inside the catch {} block
 		 */
 		expect(e).to.equal('I am rejected');
 	});
@@ -89,8 +87,8 @@ describe('Async/await', () => {
 	it('should resolve the set of promises using async/await', async () => {
 
 		/**
-		 * Handle these 2 functions using the Promise.all()
-		 * Save the the result as 'res' variable
+		 * 1. Handle these 2 functions using the Promise.all()
+		 * 2. Save the result as 'res' variable
 		 */
 		//Place you code here:
 		promise1();
