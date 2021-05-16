@@ -1,3 +1,4 @@
 const str = 'Hello World!';
-
-module.exports = str;
+const sayHello = () => {
+  console.log('Hello!!');
+};
