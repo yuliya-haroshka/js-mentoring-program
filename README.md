@@ -17,7 +17,7 @@ npm run test:${module_name}
 1. Install VSCode:  https://code.visualstudio.com/download and add needed extensions (please find them in the materials attached) 
 2. Install NodeJS: https://nodejs.org/en/download/ 
 3. Install GIT: https://git-scm.com/downloads 
-4. Navigate to https://git.epam.com/Dzmitry_Shaplyka/js-mentoring-program 
+4. Navigate to https://github.com/js-mentoring/js-mentoring-program
 5. Fork the repository 
 6. Download it to your working machine 
 7. Install the dependencies: run 'npm install' 
