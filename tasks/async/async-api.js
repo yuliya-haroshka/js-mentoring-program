@@ -30,4 +30,4 @@ module.exports = {
   myPromise,
   promise1,
   promise2
-}
+};
