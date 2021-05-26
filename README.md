@@ -1,7 +1,27 @@
 # JavaScript mentoring program
+
+##### Table of Contents  
+[Description](#description)  
+[Installation](#installation)  
+[Home tasks](#tasks)  
+[Module 1: Introduction. Setup working environment](#module_1)  
+[Module 2: Variables and data types](#module_2)  
+[Module 3: Conditions and loops](#module_3)  
+[Module 4: JavaScript functions](#module_4)  
+[Module 5: Strings and arrays](#module_5)  
+[Module 6: Objects, classes, and OOP](#module_6)  
+[Module 7: Async programming](#module_7)  
+[Module 8: NodeJS infrastructure](#module_8)  
+[Contact list](#contacts) 
+[License](#license) 
+
+<a name="description"/>
+
 ## Description
 - Useful materials
 - Self-check tasks
+
+<a name="installation"/>
 
 ## Installation
 
@@ -12,7 +32,13 @@ Install the dependencies.
 npm i
 npm run test:${module_name}
 ```
+
+<a name="tasks"/>
+
 ## Home tasks
+
+<a name="module_1"/>
+
 #### Module 1: Introduction. Setup working environment
 1. Install VSCode:  https://code.visualstudio.com/download and add needed extensions (please find them in the materials attached) 
 2. Install NodeJS: https://nodejs.org/en/download/ 
@@ -26,12 +52,16 @@ npm run test:${module_name}
 10. Add you Name and Lastname to the package.json file 
 11. Prepare the merge request and share the link with your mentor 
 
+<a name="module_2"/>
+
 #### Module 2: Variables and data types
 1. Create a new branch. 	 
 2. Do the tasks from "./tasks/variables/variables.js" file.	 
 3. To check yourself please use the script: npm run test:variables.	 
 4. Create a pull request with the done tasks.	 
 5. Send the link to the pull request to your mentor. 
+
+<a name="module_3"/>
 
 #### Module 3: Conditions and loops
 1. Create a new branch. 	 
@@ -42,12 +72,16 @@ npm run test:${module_name}
 6. Create a pull request with the done tasks.	 
 7. Send the link to the pull request to your mentor. 
 
+<a name="module_4"/>
+
 #### Module 4: JavaScript functions
 1. Create a new branch. 	 
 2. Do the tasks from "./tasks/functions/functions.js" file.	 
 3. To check yourself please use the script: npm run test:functions.	 
 4. Create a pull request with the done tasks.	 
 5. Send the link to the pull request to your mentor. 
+
+<a name="module_5"/>
 
 #### Module 5: Strings and arrays
 1. Create a new branch. 	 
@@ -57,6 +91,8 @@ npm run test:${module_name}
 5. To check the 2nd part please use the script: npm run test:arrays.	 
 6. Create a pull request with the done tasks.	 
 7. Send the link to the pull request to your mentor. 
+
+<a name="module_6"/>
 
 #### Module 6: Objects, classes, and OOP
 1. Create a new branch. 	 
@@ -69,6 +105,8 @@ npm run test:${module_name}
 8. Create a pull request with the done tasks.	 
 9. Send the link to the pull request to your mentor. 
 
+<a name="module_7"/>
+
 #### Module 7: Async programming
 1. Create a new branch. 	 
 2. Do the tasks (you have 6 tasks inside it() blocks) from "./tasks/async/async.spec.js" file.
@@ -76,6 +114,8 @@ npm run test:${module_name}
 4. To check yourself please use the script: npm run test:async.	 
 5. Create a pull request with the done tasks.	 
 6. Send the link to the pull request to your mentor.
+
+<a name="module_8"/>
 
 #### Module 8: NodeJS infrastructure
 1. Create a new branch. 	 
@@ -85,8 +125,12 @@ npm run test:${module_name}
 5. Create a pull request with the done tasks.	 
 6. Send the link to the pull request to your mentor. 
 
+<a name="contacts"/>
+
 ## Contact list
 For all questions please contact Dzmitry_Shaplyka@epam.com or Oleksandr_Halichenko@epam.com
+
+<a name="license"/>
 
 ## License
 EPAM Systems
