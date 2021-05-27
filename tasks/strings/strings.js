@@ -25,7 +25,7 @@ function centuryFromYear(year) {
 }
 
 /**
- * Calculate count of the provided char in the string
+ * Calculate how many times the 'char' appears in the provided 'string'
  * @param {string} str
  * @param {string} char
  * @return {num} number of occurences
@@ -39,9 +39,9 @@ function strCount(str, char) {
 }
 
 /**
- * Write a method to reduce the length of the string or truncate it if it is longer
- * than the given maximum length specified and add "..." to the end. 
- * If it is not that long then we keep it as is.
+ * Write a method to reduce the length of the string or truncate if it is longer
+ * than the given maximum length and add "..." to the end. 
+ * Keep it as is if it is not that long.
  * @param {string} str - the initial string
  * @param {num} num - by wht amount of chars it should be truncated
  * @return {string} truncated or the initial string
@@ -65,7 +65,7 @@ function replace10(text) {
 }
 
 /**
- * replace value in square brackets with CONFIDENTIAL
+ * replace value in the square brackets with CONFIDENTIAL
  * @param text - input text
  * @return {string} - updated string
  * @example

@@ -1,5 +1,6 @@
 /**
  * return an array of characters names
+ * Avoid using forEach() method
  * @param {Array} chars
  * @return {Array} - char names
  */
@@ -13,6 +14,7 @@ function printCharacterNames(chars) {}
 
 /**
  * return an array of non-human (species !== 'human') characters
+ * Avoid using forEach() method
  * @param {Array} chars
  * @return {Array} - non human characters
  */
@@ -20,6 +22,7 @@ function getNonHumanCharacters(chars) {}
 
 /**
  * return info about character named 'Jerry Smith'
+ * Avoid using forEach() method
  * @param {Array} chars
  * @return {Object} - Jerry object
  */
@@ -27,6 +30,7 @@ function getJerryInfo(chars) {}
 
 /**
  * check if all characters are human. return true if all, false if not
+ * Avoid using forEach() method
  * @param {Array} chars
  * @return {boolean}
  */
@@ -34,6 +38,7 @@ function isAllHuman(chars) {}
 
 /**
  * check if there are any Fish-Person characters. return true if any, false if not
+ * Avoid using forEach() method
  * @param {Array} chars
  * @return {boolean}
  */
