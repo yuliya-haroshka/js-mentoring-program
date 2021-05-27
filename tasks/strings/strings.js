@@ -8,20 +8,20 @@
  * console.log(reverseString(123)) // 'This is not a string!'
  */
 function reverseString(str) {
-  
+
 }
 
 /**
  * Calculate a century by given year if a number is passed
-* @param {number} year
-* @return {num} century
-* @example
-* console.log(centuryFromYear(1705)) // 18
-* console.log(centuryFromYear(1900)) // 19
-* console.log(centuryFromYear(1601)) // 17
-*/
+ * @param {number} year
+ * @return {num} century
+ * @example
+ * console.log(centuryFromYear(1705)) // 18
+ * console.log(centuryFromYear(1900)) // 19
+ * console.log(centuryFromYear(1601)) // 17
+ */
 function centuryFromYear(year) {
-  
+
 }
 
 /**
@@ -34,7 +34,7 @@ function centuryFromYear(year) {
  * console.log(strCount('Hello', 'l')) // 2
  * console.log(strCount('', 'z')) // 0
  */
-function strCount(str, char) {
+function strCount(str, char) {
 
 }
 
@@ -49,7 +49,7 @@ function strCount(str, char) {
  * console.log(truncateString('This is a long string', 6)) // 'This i...'
  * console.log(truncateString('This', 6)) // 'This'
  */
-function truncateString(str, num) {
+function truncateString(str, num) {
 
 }
 
