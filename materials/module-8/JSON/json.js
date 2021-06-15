@@ -11,13 +11,20 @@ const options = {
 };
 
 /**
- * JSON.stringify method
+ * The JSON.stringify() method converts a JavaScript object 
+ * or value to a JSON string, optionally replacing values 
+ * if a replacer function is specified or optionally including 
+ * only the specified properties if a replacer array is specified.
  */
-const stringifiedJson = JSON.stringify(options);
-console.log(stringifiedJson);
+
 
 /**
- * JSON.parse method
+ * The JSON.parse() method parses a JSON string, constructing the JavaScript value 
+ * or object described by the string. An optional reviver function can be provided 
+ * to perform a transformation on the resulting object before it is returned.
  */
-const parsed = JSON.parse(stringifiedJson);
-console.log(parsed.name);
+
+
+/**
+ * require the JSON file
+ */
