@@ -1,6 +1,11 @@
 /**
+ * Materials: 
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+ */
+
+/**
  * TODO create variable named int and set value equal to 1
-*/
+ */
 
 
 /**
@@ -16,7 +21,7 @@
  */
 
 /**
- * TODO create variable named bool and set value equal to comparison of int and int2 variables
+ * TODO create variable named bool and set value of equality comparison of int and int2 variables
  */
 
 /**
