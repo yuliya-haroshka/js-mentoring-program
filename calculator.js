@@ -26,7 +26,7 @@ class Claculator {
     return a * b;
   }
 
-  static devide(a, b) {
+  static divide(a, b) {
     this.checkIfArgsAreNumbers(a, b);
     return a / b;
   }
